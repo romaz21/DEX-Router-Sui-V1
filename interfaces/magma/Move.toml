@@ -2,7 +2,7 @@
 name = "magma"
 version = "0.0.1"
 #edition = "2024.beta"
-published-at = "0x183af2adf115f331105825ae63e1d7d3c848d67beb4d60bc36208a90a5e92f4b"
+published-at = "0x0aa212abff1ea21273912720f3031634ec1d65065a1d52eb3140b9d41b45a0cb"
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet-v1.48.2" }
