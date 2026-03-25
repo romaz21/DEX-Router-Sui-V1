@@ -5,7 +5,7 @@ published-at = "0xd075338d105482f1527cbfd363d6413558f184dec36d9138a70261e87f486e
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet-v1.48.2", override=true }
-IntegerMate = { git = "https://github.com/CetusProtocol/integer-mate.git", subdir = "sui", rev = "mainnet-v1.48.2" }
+IntegerMate = { git = "https://github.com/CetusProtocol/integer-mate.git", rev = "mainnet-v1.3.0", override = true }
 IntegerLibrary = { git = "https://github.com/fireflyprotocol/integer-library.git", rev =  "v1.0.1"}
 
 [addresses]
